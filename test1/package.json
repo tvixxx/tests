@@ -1,0 +1,21 @@
+{
+  "name": "mocha-chai-karma",
+  "version": "1.0.0",
+  "description": "simple test with mocha and chai",
+  "main": "src/slugGenerator.js",
+  "scripts": {
+//    "test": "mocha ./tests/*-test.js -w"
+    "test": "mocha tests"
+  },
+  "author": "tvixxx",
+  "license": "MIT",
+  "devDependencies": {
+    "angular-mocks": "^1.5.5",
+    "chai": "^3.5.0",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-mocha": "^1.0.1",
+    "karma-requirejs": "^1.0.0",
+    "mocha": "^2.4.5"
+  }
+}
